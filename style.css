@@ -126,7 +126,7 @@ body {
 }
 
 .booking-button:hover {
-  background-color: #f0f0f0;
+  background-color: #8ac33c;
 }
 
 .booking-button svg {
@@ -245,7 +245,7 @@ section {
 
 /* Footer */
 .footer {
-  background-color: #025f99;
+  background-color: #e8f5e9; /* soft green tint */
   color: #ffffff;
   text-align: center;
   padding: 1rem;
@@ -253,17 +253,57 @@ section {
   font-weight: 600;
 }
 
-/* Responsive */
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer .policy-text {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #ffffff;
+  flex: 1 1 60%;
+  text-align: left;
+}
+
+.footer .copyright {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffffff;
+  flex: 1 1 30%;
+  text-align: right;
+}
+
 @media (max-width: 720px) {
   .hero-container {
     flex-direction: column;
   }
+
   .hero-image, .hero-content {
     flex: 1 1 100%;
     min-width: auto;
     height: 250px;
   }
+
   .hero-content {
     text-align: center;
+  }
+
+  .footer-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer .policy-text,
+  .footer .copyright {
+    text-align: center;
+    flex: 1 1 100%;
   }
 }
