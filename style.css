@@ -17,7 +17,7 @@ body {
 
 /* Header with solid green-tinted background and flex layout */
 .header {
-  background-color: #e8f5e9; /* soft green tint */
+  background-color: #8ac33c; /* soft green tint */
   padding: 1rem 0;
   font-weight: 700;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 .nav a {
-  color: #025f99;
+  color: #ffffff;
   text-decoration: none;
   margin-left: 1.5rem;
   font-weight: 600;
@@ -59,7 +59,7 @@ body {
 }
 
 .nav a:hover {
-  color: #8ac33c;
+  color: #025f99;
   text-decoration: underline;
 }
 
@@ -245,7 +245,7 @@ section {
 
 /* Footer */
 .footer {
-  background-color: #e8f5e9; /* soft green tint */
+  background-color: #8ac33c; /* soft green tint */
   color: #ffffff;
   text-align: center;
   padding: 1rem;
